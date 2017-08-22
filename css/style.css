@@ -3,10 +3,7 @@ body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-}
-
-.beach{
-	background-image: url('../assets/images/beach.jpg');
+  background-image: url('../assets/images/beach.jpg');
 	background-size: cover;
 	background-position: center;
 	/*height:100vh;*/
@@ -14,6 +11,8 @@ body {
     background-attachment: fixed;
 	min-height: 100%;
 }
+
+
 
 #wrapper {
   padding-left: 250px;
@@ -141,7 +140,35 @@ body {
     position: relative;
     margin-right: 0;
   }
+
+  .biowell{
+  	position:absolute;
+  	left: 20px;
+  	width:990px;
+  }
+
+  #section02{
+  	position:absolute;
+  	width:990px;
+  	margin-top: 500px;
+  	
+  }
+
   
+  #section03{
+  	position:absolute;
+  	width:990px;
+  	margin-top:1600px;
+  }
+
+
+  #section04{
+  	position:absolute;
+  	width:990px;
+  	margin-top:4000px;
+  }
+
+
   .image { 
    position: relative; 
    width: 100%; /* for IE 6 */
@@ -195,6 +222,28 @@ hr {
 .panel-body {
     padding: 15px;
     background-color: #e9e5de;
+}
+.contactme{
+	 font-family: Droid Sans;
+	 text-align: center;
+
+}
+
+#lnkd{
+	position:absolute;
+	top:620px;
+}
+
+#git{
+	position:absolute;
+	top:620px;
+	left:60px;
+}
+
+#mail{
+	position:absolute;
+	top:620px;
+	left:120px;
 }
 
 
