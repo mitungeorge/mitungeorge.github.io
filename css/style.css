@@ -246,9 +246,14 @@ hr {
 	left:120px;
 }
 
-@media(max-width:415px) {
-  #sidebar-wrapper {
+  @media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+ #sidebar-wrapper {
     display: none;
-  }
+
+}
+
+
 
 
