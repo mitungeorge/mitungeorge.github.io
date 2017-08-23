@@ -1,5 +1,4 @@
-
-body {
+html ,body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
@@ -14,13 +13,13 @@ body {
 
 
 
-#wrapper {
+/*#wrapper {
   padding-left: 250px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
+}*/
 
 
 
@@ -34,10 +33,10 @@ body {
   overflow-y: auto;
   background: transparent;
   color:black;
-  -webkit-transition: all 0.5s ease;
+  /*-webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease;*/
 }
 
 
@@ -45,8 +44,10 @@ body {
 #page-content-wrapper {
   width: 100%;
   position: absolute;
+  left:0px;
   padding: 15px;
   margin-right: -250px;
+  margin-left: 250px;
 }
 
 #name{
@@ -98,7 +99,7 @@ body {
   text-decoration: none;
   color:black;
   text-align: : center;
- 
+
 }
 
 .sidebar-nav li a:hover {
@@ -126,20 +127,21 @@ body {
   background: none;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
   #wrapper {
     padding-left: 250px;
   }
-  
+
   #sidebar-wrapper {
     width: 250;
   }
-  
-  #page-content-wrapper {
+
+ /* #page-content-wrapper {
     padding: 20px;
-    position: relative;
+    position: absolute;
     margin-right: 0;
   }
+}*/
 
   .biowell{
   	position:absolute;
@@ -151,10 +153,10 @@ body {
   	position:absolute;
   	width:990px;
   	margin-top: 800px;
-  	
+
   }
 
-  
+
   #section03{
   	position:absolute;
   	width:990px;
@@ -169,8 +171,8 @@ body {
   }
 
 
-  .image { 
-   position: relative; 
+  .image {
+   position: relative;
    width: 100%; /* for IE 6 */
 }
 
@@ -190,7 +192,7 @@ body {
 	    position: absolute;
     left: 1px;
     width: 483px;
-    
+
 }
 
 hr {
@@ -245,15 +247,18 @@ hr {
 	top:620px;
 	left:120px;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width : 736px){
+  #sidebar-wrapper {
+     display: none;
 
-  @media only screen 
-and (min-device-width : 414px) 
+ }
+}
+
+  /*@media only screen
+and (min-device-width : 414px)
 and (max-device-width : 736px) {
  #sidebar-wrapper {
     display: none;
 
 }
-
-
-
-
+}*/
