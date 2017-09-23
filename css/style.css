@@ -125,21 +125,6 @@ html ,body {
   background: none;
 }
 
-/*@media(min-width:768px) {
-  #wrapper {
-    padding-left: 250px;
-  }
-
-  #sidebar-wrapper {
-    width: 250;
-  }
-
- /* #page-content-wrapper {
-    padding: 20px;
-    position: absolute;
-    margin-right: 0;
-  }
-}*/
 
   .biowell{
   	position:absolute;
@@ -184,6 +169,8 @@ html ,body {
     top: -421px;
     color:#333f48;
     font-family: Droid Sans;
+    display: inline-block;
+    overflow:auto;
 }
 
 #line{
@@ -256,25 +243,57 @@ hr {
   }  
 
 @media only screen and (min-device-width: 320px) and (max-device-width : 736px){
+
   #sidebar-wrapper {
      display: none;
 
  }
  #page-content-wrapper {
-  width:90%;
+  width:100%;
    position: relative;
    /*left:0px;*/
-   padding: 15px;
+   /*padding: 15px;*/
    margin-right: -250px;
-   margin-left: 10px;
+   margin-left: 0px;
  }
+  .biowell{
+    width:92%;
+    height: auto;
+  }
+
+  #section02{
+    position:relative;
+    top: 600px;
+    width:auto;
+    /*max-height:300px;*/
+
+  }
+
+  .well{
+    height: auto;
+  }
+
+  #section03{
+    width:95%;
+    top:800px;
+  }
+
+  #section04{
+    width:auto;
+    position: relative;
+    margin-top:3300px;
+  }
+  .bio{
+    position:relative;
+    left:0px;
+    margin-left:10px;
+    width:100%;
+    margin-top:450px;
+  }
+  #line{
+    width:92%;
+  }
+
 }
 
-  /*@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px) {
- #sidebar-wrapper {
-    display: none;
 
-}
-}*/
