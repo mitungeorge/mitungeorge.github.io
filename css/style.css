@@ -42,9 +42,9 @@ html ,body {
 
 
 #page-content-wrapper {
-  width: 100%;
-  position: absolute;
+  position: relative;
   left:0px;
+  right:0px;
   padding: 15px;
   margin-right: -250px;
   margin-left: 250px;
@@ -98,8 +98,6 @@ html ,body {
   display: block;
   text-decoration: none;
   color:black;
-  text-align: : center;
-
 }
 
 .sidebar-nav li a:hover {
@@ -167,7 +165,7 @@ html ,body {
   #section04{
   	position:absolute;
   	width:990px;
-  	margin-top:4100px;
+  	margin-top:4570px;
   }
 
 
@@ -247,14 +245,25 @@ hr {
 	top:620px;
 	left:120px;
 }
+
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin: 0 auto;
+  }  
+
 @media only screen and (min-device-width: 320px) and (max-device-width : 736px){
   #sidebar-wrapper {
      display: none;
 
  }
  #page-content-wrapper {
-   position: absolute;
-   left:0px;
+  width:90%;
+   position: relative;
+   /*left:0px;*/
    padding: 15px;
    margin-right: -250px;
    margin-left: 10px;
