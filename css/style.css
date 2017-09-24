@@ -5,21 +5,11 @@ html ,body {
   background-image: url('../assets/images/beach.jpg');
 	background-size: cover;
 	background-position: center;
-	/*height:100vh;*/
 	 background-repeat: no-repeat;
     background-attachment: fixed;
 	min-height: 100%;
 }
 
-
-
-/*#wrapper {
-  padding-left: 250px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}*/
 
 
 
@@ -33,10 +23,6 @@ html ,body {
   overflow-y: auto;
   background: transparent;
   color:black;
-  /*-webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;*/
 }
 
 
@@ -125,6 +111,10 @@ html ,body {
   background: none;
 }
 
+.sidebar-nav li a.cimg:hover{
+  background:none;
+  
+}
 
   .biowell{
   	position:absolute;
@@ -259,8 +249,7 @@ hr {
  #page-content-wrapper {
   width:100%;
    position: relative;
-   /*left:0px;*/
-   /*padding: 15px;*/
+
    margin-right: -250px;
    margin-left: 0px;
  }
