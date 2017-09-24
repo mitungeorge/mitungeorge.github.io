@@ -130,12 +130,20 @@ html ,body {
   	position:absolute;
   	left: 20px;
   	width:990px;
+    height:450px;
+  }
+
+  #section01{
+    position:absolute;
+    width:990px;
+    height:450px;
+    left: 0px;
   }
 
   #section02{
   	position:absolute;
   	width:990px;
-  	margin-top: 800px;
+  	margin-top: 350px;
 
   }
 
