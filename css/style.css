@@ -265,20 +265,19 @@ hr {
    margin-left: 0px;
  }
   .biowell{
-    width:92%;
-    height: auto;
+    width:380px;
+    height: 1090px;
   }
 
   #section02{
     position:relative;
     top: 600px;
     width:auto;
-    /*max-height:300px;*/
 
   }
 
   .well{
-    height: auto;
+    /*height: auto;*/
   }
 
   #section03{
@@ -289,8 +288,10 @@ hr {
   #section04{
     width:auto;
     position: relative;
-    margin-top:3300px;
+    margin-top:3400px;
   }
+
+
   .bio{
     position:relative;
     left:0px;
